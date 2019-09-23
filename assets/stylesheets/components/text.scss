@@ -1,0 +1,21 @@
+@import "variables";
+
+.title {
+  font-weight: Bold;
+  font-size: 30px;
+  text-transform: uppercase;
+
+  @include breakpoint("medium") { font-size: 50px }
+}
+
+.subtitle {  
+  @include breakpoint("medium") { font-size: 30px }
+}
+
+.text {
+  &-thin {
+    font-weight: lighter;
+  }
+
+  @include colors("color");
+}

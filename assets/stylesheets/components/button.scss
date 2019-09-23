@@ -1,0 +1,27 @@
+@import "variables";
+
+.button {
+  background-color: transparent;
+  border: 2px solid;
+  padding: 10px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: padding 0.2s;
+
+  @include breakpoint("touch") {
+    position: absolute;
+    z-index: 99;
+  }
+
+  @include breakpoint("medium") { font-size: 25px; }
+
+  &:hover {
+    padding: 15px 25px;
+    text-decoration: underline;
+  }
+
+  &-blue {
+    border-color: $blue;
+    color: $blue;
+  }
+}

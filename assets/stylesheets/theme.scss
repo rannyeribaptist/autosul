@@ -1,0 +1,25 @@
+// Color Variables, Breakpoints and utils
+@import "components/variables";
+@import "components/section";
+@import "components/split";
+@import "components/text";
+@import "components/button";
+
+body {
+  margin: 0;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+.spacer {
+  margin: 50px 0;
+
+  &-lg {
+    margin: 100px 0;
+  }
+}
+
+.negative-margin {
+  @include breakpoint("touch") {
+    margin-top: -150px;
+  }
+}
