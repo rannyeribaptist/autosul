@@ -8,6 +8,10 @@
     flex-direction: row;
   }
 
+  &--inverted {
+    @include breakpoint("touch") { flex-direction: column-reverse }
+  }
+
   &__content {
     @include breakpoint("medium") {
       width: 50%;

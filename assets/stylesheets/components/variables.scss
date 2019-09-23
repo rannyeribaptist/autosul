@@ -1,5 +1,7 @@
 // Colors
 $blue: #1D2355;
+$dark-grey: #B2B9C2;
+$grey: #E8E8E8;
 
 // Breakpoints
 @mixin breakpoint($value) {
@@ -44,51 +46,14 @@ $blue: #1D2355;
 // managing theme colors with a mixin
 @mixin colors($attribute) {
   @if $attribute == color {
-    &-blue { color: $blue };
-    // &--yellow { color: $yellow };
-    // &--dark-yellow { color: $dark-yellow };
-    // &--blue2 { color: $blue2 };
-    // &--cyan { color: $cyan };
-    // &--grey { color: $grey };
-    // &--light-grey { color: $light-grey };
-    // &--red { color: $red };
-    // &--green { color: $green };
-    // &--golden { color: $golden };
-    // &--white{ color: white };
-    // &--black{ color: black };
+    &--blue { color: $blue };
   }
 
   @else if $attribute == background-color {
-    &-blue { background-color: $blue };
-    // &--dark-yellow { background-color: $dark-yellow };
-    // &--yellow { background-color: $yellow };
-    // &--yellow-1 { background-color: $yellow-1 };
-    // &--yellow-2 { background-color: $yellow-2 };
-    // &--yellow-3 { background-color: $yellow-3 };
-    // &--yellow-4 { background-color: $yellow-4 };
-    // &--yellow-5 { background-color: $yellow-5 };
-    // &--cyan { background-color: $cyan };
-    // &--green { background-color: $green };
-    // &--blue2 { background-color: $blue2 };
-    // &--grey { background-color: $grey };
-    // &--light-grey { background-color: $light-grey };
-    // &--red { background-color: $red };
-    // &--golden { background-color: $golden };
-    // &--white{ background-color: white };
-    // &--black{ background-color: black };
+    &--blue { background-color: $blue };
   }
 
   @else if $attribute == border-color {
-    &-blue { border-color: $blue };
-    // &--dark-yellow { border-color: $dark-yellow };
-    // &--cyan { border-color: $cyan };
-    // &--green { border-color: $green };
-    // &--yellow { border-color: $yellow };
-    // &--blue2 { border-color: $blue2 };
-    // &--grey { border-color: $grey };
-    // &--red { border-color: $red };
-    // &--golden { border-color: $golden };
-    // &--white{ border-color: white };
-    // &--black{ border-color: black };
+    &--blue { border-color: $blue };
   }
 }

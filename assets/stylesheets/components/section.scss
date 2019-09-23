@@ -5,9 +5,12 @@
   // height: 100vh;
   overflow: hidden;
 
-  &-gradient {
-    background-image: url('../../assets/images/gradient.png');
-    background-size: cover;
+  &--gradient {
+    background-image: linear-gradient($dark-grey, $grey);
+  }
+
+  &--gradient-inverted {
+    background-image: linear-gradient($grey, $dark-grey);
   }
 
   &__content {

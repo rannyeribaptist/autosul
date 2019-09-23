@@ -4,10 +4,12 @@
 @import "components/split";
 @import "components/text";
 @import "components/button";
+@import "components/columns";
 
 body {
   margin: 0;
   font-family: 'Red Hat Display', sans-serif;
+  color: $blue;
 }
 
 .spacer {
@@ -21,5 +23,14 @@ body {
 .negative-margin {
   @include breakpoint("touch") {
     margin-top: -150px;
+  }
+}
+
+.small-image {
+  max-width: 100%;
+
+  &:nth-of-type(2) {
+    @include breakpoint("large") { margin-top: -200px }
+    @include breakpoint("touch") { margin-top: -100px }
   }
 }

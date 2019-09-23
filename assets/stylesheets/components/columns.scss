@@ -1,0 +1,44 @@
+@import "variables";
+
+.columns {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  @include breakpoint("medium") { flex-direction: row }
+
+  &--small { flex-direction: row }
+  &--medium { @include breakpoint("small-up"){ flex-direction: row } }
+}
+
+.column {
+  text-align: center;
+
+  @include breakpoint("medium") {
+    &--1 { width: 10% }
+    &--2 { width: 20% }
+    &--3 { width: 30% }
+    &--4 { width: 40% }
+    &--5 { width: 50% }
+    &--6 { width: 60% }
+    &--7 { width: 70% }
+    &--8 { width: 80% }
+    &--9 { width: 90% }
+  }
+
+  &--small {
+    text-align: center;
+    &--1 { width: 10% }
+    &--2 { width: 20% }
+    &--3 { width: 30% }
+    &--4 { width: 40% }
+    &--5 { width: 50% }
+    &--6 { width: 60% }
+    &--7 { width: 70% }
+    &--8 { width: 80% }
+    &--9 { width: 90% }
+  }
+
+  &--middle { @include breakpoint("medium"){margin: 0 20px} }
+  @include colors("background-color");
+}
