@@ -17,4 +17,6 @@
     padding: 30px;
     @include breakpoint("limiter");
   }
+  
+  @include colors("background-color");
 }

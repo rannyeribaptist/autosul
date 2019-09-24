@@ -47,13 +47,22 @@ $grey: #E8E8E8;
 @mixin colors($attribute) {
   @if $attribute == color {
     &--blue { color: $blue };
+    &--grey { color: $grey };
+    &--dark-grey { color: $dark-grey };
+    &--white { color: white };
   }
 
   @else if $attribute == background-color {
     &--blue { background-color: $blue };
+    &--grey { background-color: $grey };
+    &--dark-grey { background-color: $dark-grey };
+    &--white { background-color: white };
   }
 
   @else if $attribute == border-color {
     &--blue { border-color: $blue };
+    &--grey { border-color: $grey };
+    &--dark-grey { border-color: $dark-grey };
+    &--white { border-color: white };
   }
 }

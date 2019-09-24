@@ -9,7 +9,9 @@
 }
 
 .subtitle {
-  @include breakpoint("medium") { font-size: 30px }
+  font-size: 25px;
+  
+  @include breakpoint("large") { font-size: 30px }
 }
 
 .text {

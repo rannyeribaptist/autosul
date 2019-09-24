@@ -18,6 +18,18 @@
       padding: 0 25px;
     }
 
+    &--text {
+      padding: 0 25px;
+      text-align: center;
+
+      @include breakpoint("medium") {
+        text-align: right;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+    }
+
     @include breakpoint("medium") {
       width: 50%;
       padding: 0 25px;

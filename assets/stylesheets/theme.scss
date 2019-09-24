@@ -34,3 +34,8 @@ body {
     @include breakpoint("touch") { margin-top: -100px }
   }
 }
+
+.big-image {
+  width: 100%;
+  @include breakpoint("medium") { max-width: 800px; }
+}
