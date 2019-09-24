@@ -26,7 +26,8 @@
       flex-direction: row; } }
   @media (max-width: 899px) {
     .split--inverted {
-      flex-direction: column-reverse; } }
+      flex-direction: column-reverse;
+      text-align: center; } }
   @media (min-width: 900px) {
     .split__content {
       width: 50%;

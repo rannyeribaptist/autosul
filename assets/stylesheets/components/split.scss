@@ -9,7 +9,10 @@
   }
 
   &--inverted {
-    @include breakpoint("touch") { flex-direction: column-reverse }
+    @include breakpoint("touch") {
+      flex-direction: column-reverse;
+      text-align: center;
+    }
   }
 
   &__content {
