@@ -1,0 +1,60 @@
+@import "variables";
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: background-color 0.2s;
+  z-index: 999;
+
+  a { color: $blue; font-weight: 600 }
+
+  &--colored {
+    background-color: white;
+    border-bottom: 2px solid $blue;
+  }
+
+  &__mobile {
+    display: none;
+    padding: 20px;
+
+    img {
+      max-width: 30px;
+    }
+
+    @include breakpoint("touch") {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+
+  &__content {
+    padding: 20px;
+    width: 100%;
+
+    @include breakpoint("touch") {
+      flex-direction: column;
+      justify-content: space-around;
+      height: 300px;
+      display: none;
+
+      img {
+        display: none;
+      }
+    }
+
+    &--active {
+      display: flex;
+    }
+
+    @include breakpoint("medium") {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    @include breakpoint("limiter");
+  }
+}

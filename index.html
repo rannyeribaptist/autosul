@@ -13,6 +13,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
+
+    <nav class="navbar">
+      <div class="navbar__mobile">
+        <a class="toggle-navbar"><img src="https://icongr.am/material/bars.svg?size=30&color=1D2355"></a>
+        <img class="logo-small" src="assets/images/logo.svg" alt="">
+      </div>
+
+      <div class="navbar__content">
+        <a href="#about">Sobre nós</a>
+        <a href="#benefits">Benefícios</a>
+        <img class="logo-small" src="assets/images/logo.svg" alt="">
+        <a href="#">Segunda via de boleto</a>
+        <a href="http://bit.ly/AutoSul-Ad" target="_blank">Fazer cotação</a>
+      </div>
+    </nav>
     <!-- First section -->
     <div class="section section--gradient">
       <div class="section__content">
@@ -34,7 +49,7 @@
     </div>
 
     <!-- Second section -->
-    <div class="section section--gradient-inverted">
+    <div id="benefits" class="section section--gradient-inverted">
       <div class="section__content">
         <div class="split split--inverted">
           <div class="split__content">
@@ -98,7 +113,7 @@
     </div>
 
     <!-- Third section -->
-    <div class="section section--blue">
+    <div id="about" class="section section--blue">
       <div class="split">
         <div class="split__content split__content--text">
           <h1 class="title text--white">Sobre a Autosul</h1>
@@ -134,7 +149,7 @@
             <img class="small-image" src="assets/images/logo.png" alt="logo">
           </div>
           <div class="column column--3">
-            <h2 class="subtitle text--white text--thin">Links úteis</h2>            
+            <h2 class="subtitle text--white text--thin">Links úteis</h2>
             <ul class="footer-links">
               <li>
                 <img src="https://icongr.am/simple/instagram.svg?size=30&color=ffffff" alt="" style="margin-right: 15px">
@@ -153,7 +168,8 @@
             </ul>
           </div>
 
-          <div class="column column--3">
+          <!-- Footer -->
+          <footer class="column column--3">
             <h2 class="subtitle text--white text--thin">Venha nos visitar</h2>
             <ul class="footer-links">
               <li>
@@ -171,10 +187,13 @@
                 <text class="text--white">autosulassociados@gmail.com</text>
               </li>
             </ul>
-          </div>
+          </footer>
+
         </div>
       </div>
     </div>
 
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="assets/javascripts/script.js"></script>
   </body>
 </html>

@@ -5,6 +5,7 @@
 @import "components/text";
 @import "components/button";
 @import "components/columns";
+@import "components/navbar";
 
 body {
   margin: 0;
@@ -40,6 +41,8 @@ body {
   @include breakpoint("medium") { max-width: 800px; }
 }
 
+.logo-small { max-width: 50px }
+
 .footer-links {
   color: white;
   font-size: 20px;
@@ -53,11 +56,11 @@ body {
     display: flex;
     align-items: center;
   }
+}
 
-  a {
-    color: white;
-    text-decoration: none;
+a {
+  color: white;
+  text-decoration: none;
 
-    &:hover { text-decoration: underline; }
-  }
+  &:hover { text-decoration: underline; }
 }
