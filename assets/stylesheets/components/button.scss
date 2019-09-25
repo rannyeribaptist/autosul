@@ -20,8 +20,22 @@
     text-decoration: underline;
   }
 
+  &--small {
+    font-size: 15px;
+    padding: 10px;
+  }
+
+  &--right {
+    @include breakpoint("small-up") { float: right }
+  }
+
   &--blue {
     border-color: $blue;
     color: $blue;
+  }
+
+  &--green {
+    border-color: #149215;
+    color: #149215;
   }
 }

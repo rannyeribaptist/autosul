@@ -10,7 +10,7 @@
 
 .subtitle {
   font-size: 25px;
-  
+
   @include breakpoint("large") { font-size: 30px }
 }
 
@@ -18,6 +18,8 @@
   &--thin {
     font-weight: lighter;
   }
+
+  &--small { font-size: 20px }
 
   @include colors("color");
 }

@@ -64,3 +64,14 @@ a {
 
   &:hover { text-decoration: underline; }
 }
+
+.input {
+  padding: 10px;
+  padding-right: 0;
+  border: 1px solid grey;
+  border-radius: 5px;
+  font-size: 15px;
+  width: 95%;
+
+  @include breakpoint("small-up") { width: 100% }
+}
