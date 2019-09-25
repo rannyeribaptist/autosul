@@ -38,4 +38,5 @@
       padding: 0 25px;
     }
   }
+  @include breakpoint("limiter");
 }

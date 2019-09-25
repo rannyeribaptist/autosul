@@ -6,9 +6,10 @@
 
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css?family=Red+Hat+Display:400,400i,500,500i,700&display=swap" rel="stylesheet">
-
     <!-- Styles -->
     <link href="assets/stylesheets/style.css" rel="stylesheet">
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/7b3b29cff2.js" crossorigin="anonymous"></script>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
@@ -16,7 +17,8 @@
 
     <nav class="navbar">
       <div class="navbar__mobile">
-        <a class="toggle-navbar"><img src="https://icongr.am/material/bars.svg?size=30&color=1D2355"></a>
+        <!-- <a class="toggle-navbar"><img src="https://icongr.am/material/bars.svg?size=30&color=1D2355"></a> -->
+        <a class="toggle-navbar"><i class="fas fa-bars"></i></a>
         <img class="logo-small" src="assets/images/logo.svg" alt="">
       </div>
 
@@ -24,8 +26,9 @@
         <a href="#about">Sobre nós</a>
         <a href="#benefits">Benefícios</a>
         <img class="logo-small" src="assets/images/logo.svg" alt="">
-        <a href="form.php" target="_blank">Segunda via de boleto</a>
-        <a href="http://bit.ly/AutoSul-Ad" target="_blank">Fazer cotação</a>
+        <!-- <a href="form.php" target="_blank">Segunda via de boleto</a> -->
+        <a href="#" class="disabled">Segunda via de boleto</a>
+        <a href="http://bit.ly/AutoSul-Ad" target="_blank">Cadastre-se</a>
       </div>
     </nav>
     <!-- First section -->
@@ -35,10 +38,10 @@
           <div class="split__content">
             <div class="spacer-lg"></div>
             <h1 class="title text--blue">Proteção é pra quem ama</h1>
-            <h2 class="subtitle text--thin text--blue">Faça uma cotação sem compromissos com a Autosul Proteção Veícular</h2>
+            <h2 class="subtitle text--thin text--blue">Conheça os benefícios da Autosul e torne-se um associado</h2>
             <br>
             <a href="http://bit.ly/AutoSul-Ad" target="_blank">
-              <button class="button button--blue" type="button" name="button">Fazer cotação</button>
+              <button class="button button--blue" type="button" name="button">Cadastre-se</button>
             </a>
           </div>
           <div class="split__content negative-margin">
@@ -65,45 +68,58 @@
             <div class="columns columns--small">
               <div class="column--small column--small--3">
                 <p>Chaveiro</p>
-                <img src="https://icongr.am/material/car-key.svg?size=50&color=1D2355">
+                <i class="fas fa-key"></i>
+                <!-- <img src="https://icongr.am/material/car-key.svg?size=50&color=1D2355"> -->
               </div>
               <div class="column--small column--small--3">
                 <p>Cobertura em todo o Brasil</p>
-                <img src="https://icongr.am/material/map.svg?size=50&color=1D2355">
+                <i class="fas fa-map"></i>
+                <!-- <img src="https://icongr.am/material/map.svg?size=50&color=1D2355"> -->
               </div>
               <div class="column--small column--small--3">
                 <p>Idenização 100% FIPE</p>
-                <img src="https://icongr.am/material/square-inc-cash.svg?size=50&color=1D2355">
+                <!-- <img src="https://icongr.am/material/square-inc-cash.svg?size=50&color=1D2355"> -->
+                <i class="fas fa-dollar-sign"></i>
               </div>
             </div>
+
+            <br>
 
             <div class="columns columns--small">
               <div class="column--small column--small--3">
                 <p>Rastreamento Gratuito</p>
-                <img src="https://icongr.am/material/crosshairs-gps.svg?size=50&color=1D2355">
+                <!-- <img src="https://icongr.am/material/crosshairs-gps.svg?size=50&color=1D2355"> -->
+                <i class="fas fa-location-arrow"></i>
               </div>
               <div class="column--small column--small--3">
                 <p>Reboque para panes e acidentes</p>
-                <img src="https://icongr.am/material/towing.svg?size=50&color=1D2355">
+                <!-- <img src="https://icongr.am/material/towing.svg?size=50&color=1D2355"> -->
+                <i class="fas fa-hands"></i>
               </div>
               <div class="column--small column--small--3">
                 <p>Cobertura a terceiros</p>
-                <img src="https://icongr.am/material/account-group.svg?size=50&color=1D2355">
+                <!-- <img src="https://icongr.am/material/account-group.svg?size=50&color=1D2355"> -->
+                <i class="fas fa-users"></i>
               </div>
             </div>
+
+            <br>
 
             <div class="columns columns--small">
               <div class="column--small column--small--3">
                 <p>Transporte Alternativo</p>
-                <img src="https://icongr.am/material/bus-side.svg?size=50&color=1D2355">
+                <!-- <img src="https://icongr.am/material/bus-side.svg?size=50&color=1D2355"> -->
+                <i class="fas fa-bus"></i>
               </div>
               <div class="column--small column--small--3">
                 <p>Veículo Reserva</p>
-                <img src="https://icongr.am/material/car-multiple.svg?size=50&color=1D2355">
+                <!-- <img src="https://icongr.am/material/car-multiple.svg?size=50&color=1D2355"> -->
+                <i class="fas fa-car"></i>
               </div>
               <div class="column--small column--small--3">
                 <p>Auxílio na troca de pneus</p>
-                <img src="https://icongr.am/material/toolbox.svg?size=50&color=1D2355">
+                <!-- <img src="https://icongr.am/material/toolbox.svg?size=50&color=1D2355"> -->
+                <i class="fas fa-tools"></i>
               </div>
             </div>
 
@@ -117,7 +133,7 @@
       <div class="split">
         <div class="split__content split__content--text">
           <h1 class="title text--white">Sobre a Autosul</h1>
-          <h2 class="subtitle text--white text--thin">A segurança é uma das prioridades de nós seres humanos. Todos querem alcançar a tranquilidade de estar seguro a todo momento. Proporcionar essa segurança é o nosso objetivo.</h2>
+          <h2 class="subtitle text--white text--thin">A autosul é uma associação civil de benefícios, criada pela união de pessoas, que tem por finalidade a ajuda mutua, como forma de cooperação reciproca para alcançar os objetivos comuns de um grupo restrito de proprietários de veículos, regidos pela autogestão entre seus membros. Assim, a autosul visa disponibilizar assistência e amparo aos seus associados, a partir da ideia da divisão de despesas entre os associados e através de convênios coletivos com parceiros e terceiros.</h2>
         </div>
         <div class="split__content" style="padding: 0">
           <img class="big-image" src="assets/images/autosul.jpg" alt="autosul">
@@ -142,7 +158,7 @@
     </div>
 
     <!-- Footer -->
-    <div class="section section--blue text--white">
+    <footer class="section section--blue text--white">
       <div class="section__content">
         <div class="columns">
           <div class="column column--4">
@@ -152,46 +168,60 @@
             <h2 class="subtitle text--white text--thin">Links úteis</h2>
             <ul class="footer-links">
               <li>
-                <img src="https://icongr.am/simple/instagram.svg?size=30&color=ffffff" alt="" style="margin-right: 15px">
+                <!-- <img src="https://icongr.am/simple/instagram.svg?size=30&color=ffffff" alt="" style="margin-right: 15px"> -->
+                <i class="fab fa-instagram" style="margin-right: 10px"></i>
                 <a href="https://www.instagram.com/autosulprotecao/" target="_blank">Instagram</a>
               </li>
 
               <li>
-                <img src="https://icongr.am/material/account-card-details.svg?size=30&color=ffffff" alt="" style="margin-right: 15px">
-                <a href="http://bit.ly/AutoSul-Ad" target="_blank">Faça sua Cotação</a>
+                <!-- <img src="https://icongr.am/material/account-card-details.svg?size=30&color=ffffff" alt="" style="margin-right: 15px"> -->
+                <i class="fas fa-user-check" style="margin-right: 10px"></i>
+                <a href="http://bit.ly/AutoSul-Ad" target="_blank">Cadastre-se</a>
               </li>
 
               <li>
-                <img src="https://icongr.am/material/barcode.svg?size=30&color=ffffff" alt="" style="margin-right: 15px">
-                <a href="form.php" target="_blank">Segunda via de Boleto</a>
+                <!-- <img src="https://icongr.am/material/barcode.svg?size=30&color=ffffff" alt="" style="margin-right: 15px"> -->
+                <!-- <a href="form.php" target="_blank">Segunda via de Boleto</a> -->
+                <i class="fas fa-barcode" style="margin-right: 10px"></i>
+                <a href="#" class="disabled">Segunda via de Boleto</a>
               </li>
             </ul>
           </div>
 
           <!-- Footer -->
-          <footer class="column column--3">
+          <div class="column column--3">
             <h2 class="subtitle text--white text--thin">Venha nos visitar</h2>
             <ul class="footer-links">
               <li>
-                <img src="https://icongr.am/material/map-marker.svg?size=30&color=ffffff" alt="" style="margin-right: 15px">
+                <!-- <img src="https://icongr.am/material/map-marker.svg?size=30&color=ffffff" alt="" style="margin-right: 15px"> -->
+                <i class="fas fa-map-marker-alt" style="margin-right: 10px"></i>
                 <text class="text--white">Avenida Engenheiro Domingos Ferreira, 500. Loja E. Pina, Recife</text>
               </li>
 
               <li>
-                <img src="https://icongr.am/material/phone.svg?size=30&color=ffffff" alt="" style="margin-right: 15px">
+                <!-- <img src="https://icongr.am/material/phone.svg?size=30&color=ffffff" alt="" style="margin-right: 15px"> -->
+                <i class="fas fa-phone" style="margin-right: 10px"></i>
                 <text class="text--white">81 99299-7329</text>
               </li>
 
               <li>
-                <img src="https://icongr.am/material/email-outline.svg?size=30&color=ffffff" alt="" style="margin-right: 15px">
+                <!-- <img src="https://icongr.am/material/email-outline.svg?size=30&color=ffffff" alt="" style="margin-right: 15px"> -->
+                <i class="fas fa-envelope" style="margin-right: 10px"></i>
                 <text class="text--white">autosulassociados@gmail.com</text>
               </li>
             </ul>
-          </footer>
+
+            <br>
+            <br>
+          </div>
 
         </div>
       </div>
-    </div>
+
+      <small>© 2019 Autosul Proteção Veícular - Todos os direitos reservados.</small>
+      <br>
+      <small>CNPJ: 34.261.638/0001-06</small>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="assets/javascripts/script.js"></script>

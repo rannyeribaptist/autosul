@@ -38,9 +38,18 @@
       .form-section__content {
         padding: 30px 50px; } }
 
+footer {
+  padding-bottom: 5px;
+  text-align: center; }
+  footer .fas, footer .fab, footer .fa {
+    color: white;
+    font-size: 20px; }
+
 .split {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  max-width: 1400px;
+  margin: 0 auto; }
   @media (min-width: 900px) {
     .split {
       flex-direction: row; } }
@@ -75,10 +84,10 @@
       font-size: 50px; } }
 
 .subtitle {
-  font-size: 25px; }
+  font-size: 20px; }
   @media (min-width: 1200px) {
     .subtitle {
-      font-size: 30px; } }
+      font-size: 25px; } }
 
 .text--thin {
   font-weight: lighter; }
@@ -293,5 +302,15 @@ a {
   @media (min-width: 600px) {
     .input {
       width: 100%; } }
+
+.disabled {
+  cursor: default;
+  color: grey !important; }
+  .disabled:hover {
+    text-decoration: none !important; }
+
+.fas, .fab, .fa {
+  color: #161d57;
+  font-size: 30px; }
 
 /*# sourceMappingURL=style.css.map */

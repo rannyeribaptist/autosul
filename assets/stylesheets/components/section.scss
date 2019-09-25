@@ -41,3 +41,10 @@
     @include breakpoint("small-up") { padding: 30px 50px }
   }
 }
+
+footer {
+  padding-bottom: 5px;
+  text-align: center;
+
+  .fas, .fab, .fa { color: white; font-size: 20px }
+}
