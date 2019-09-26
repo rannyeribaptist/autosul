@@ -76,11 +76,4 @@ a {
   @include breakpoint("small-up") { width: 100% }
 }
 
-.disabled {
-  cursor: default;
-  color: grey !important;
-
-  &:hover { text-decoration: none !important }
-}
-
 .fas, .fab, .fa { color: $blue; font-size: 30px }

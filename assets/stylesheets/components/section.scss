@@ -20,28 +20,6 @@
   @include colors("background-color");
 }
 
-.form-section {
-  width: 100%;
-  min-height: 100vh;
-  background-color: $blue;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-
-  &__content {
-    background-color: white;
-    width: 80%;
-    max-width: 1000px;
-    border-radius: 5px;
-    text-align: left;
-    padding: 10px;
-
-    @include breakpoint("small-up") { padding: 30px 50px }
-  }
-}
-
 footer {
   padding-bottom: 5px;
   text-align: center;
