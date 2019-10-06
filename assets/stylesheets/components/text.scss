@@ -15,10 +15,8 @@
 }
 
 .text {
-  &--thin {
-    font-weight: lighter;
-  }
-
+  &--thin { font-weight: lighter }
+  &--bold { font-weight: bold }
   &--small { font-size: 20px }
 
   @include colors("color");
