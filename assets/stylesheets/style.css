@@ -231,11 +231,22 @@ footer {
         align-items: center; } }
 
 .testimonial {
-  margin-bottom: 15px; }
-  .testimonial img {
-    border-radius: 50%;
-    width: 150px;
-    height: 150px; }
+  overflow: hidden;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto; }
+  .testimonial__content {
+    overflow-x: scroll;
+    display: -webkit-inline-box;
+    width: -webkit-fill-available; }
+  .testimonial__card {
+    text-align: center;
+    width: 300px;
+    margin: 15px; }
+    .testimonial__card img {
+      border-radius: 50%;
+      width: 150px;
+      height: 150px; }
 
 body {
   margin: 0;

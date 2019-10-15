@@ -1,11 +1,26 @@
 @import "variables";
 
 .testimonial {
-  margin-bottom: 15px;
+  overflow: hidden;
+  width: 100%;
 
-  img {
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
+  &__content {
+    overflow-x: scroll;
+    display: -webkit-inline-box;
+    width: -webkit-fill-available;
   }
+
+  &__card {
+    text-align: center;
+    width: 300px;
+    margin: 15px;
+
+    img {
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+    }
+  }
+
+  @include breakpoint("limiter");
 }
