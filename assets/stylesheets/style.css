@@ -196,7 +196,7 @@ footer {
     color: #161d57;
     font-weight: 600; }
   .navbar--colored {
-    background-color: white;
+    background-color: #ffffffcc;
     border-bottom: 2px solid #161d57; }
   .navbar__mobile {
     display: none;
