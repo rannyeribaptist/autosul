@@ -52,6 +52,7 @@ $grey: #E8E8E8;
     &--grey-2 { color: $grey-2 };
     &--dark-grey { color: $dark-grey };
     &--white { color: white };
+    &--black { color: black };
   }
 
   @else if $attribute == background-color {

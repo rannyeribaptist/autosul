@@ -12,6 +12,19 @@
     background-image: linear-gradient($grey, $dark-grey);
   }
 
+  &--full-height {
+    min-height: 100vh;
+    align-items: center;
+
+    .section__content {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
   &__content {
     padding: 30px;
     @include breakpoint("limiter");

@@ -5,6 +5,15 @@
     background-image: linear-gradient(#B2B9C2, #E8E8E8); }
   .section--gradient-inverted {
     background-image: linear-gradient(#E8E8E8, #B2B9C2); }
+  .section--full-height {
+    min-height: 100vh;
+    align-items: center; }
+    .section--full-height .section__content {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
   .section__content {
     padding: 30px;
     max-width: 1400px;
@@ -87,6 +96,8 @@ footer {
   color: #B2B9C2; }
 .text--white {
   color: white; }
+.text--black {
+  color: black; }
 
 .button {
   background-color: transparent;
@@ -247,6 +258,23 @@ footer {
       border-radius: 50%;
       width: 150px;
       height: 150px; }
+
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100; }
+
+.my-float {
+  margin-top: 16px; }
 
 body {
   margin: 0;
