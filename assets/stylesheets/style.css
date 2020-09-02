@@ -164,7 +164,8 @@ footer {
     .column--9 {
       width: 90%; } }
   .column--small {
-    text-align: center; }
+    text-align: center;
+    margin-right: 15px; }
     .column--small--1 {
       width: 10%; }
     .column--small--2 {
